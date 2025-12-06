@@ -10,13 +10,13 @@ db_environment = os.getenv("ENV")
 
 clear_console()
 
-result = {
-    "USER": f"Hi {db_user}. Welcome to Python !!!",
-    "PASS": db_pass,
-    "ENV": f"The environment is: {db_environment} !!!",
-}
-print(result)
+# result = {
+#     "USER": f"Hi {db_user}. Welcome to Python !!!",
+#     "PASS": db_pass,
+#     "ENV": f"The environment is: {db_environment} !!!",
+# }
+# print(result)
 
-users = ["Rodrigo", "Fernando", "Giovani", "Marcelo", "Leonardo"]
-print(users)
-print(users[0:3])
+# users = ["Rodrigo", "Fernando", "Giovani", "Marcelo", "Leonardo"]
+# print(users)
+# print(users[0:3])
