@@ -16,7 +16,3 @@ clear_console()
 #     "ENV": f"The environment is: {db_environment} !!!",
 # }
 # print(result)
-
-# users = ["Rodrigo", "Fernando", "Giovani", "Marcelo", "Leonardo"]
-# print(users)
-# print(users[0:3])
