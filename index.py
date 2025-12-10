@@ -1,18 +1,6 @@
-import os
-from dotenv import load_dotenv
 from utils.console import clear_console
-
-load_dotenv()
-
-db_user = os.getenv("DB_USER")
-db_pass = os.getenv("DB_PASS")
-db_environment = os.getenv("ENV")
+# from utils.env_variables import get_env_variables
 
 clear_console()
 
-# result = {
-#     "USER": f"Hi {db_user}. Welcome to Python !!!",
-#     "PASS": db_pass,
-#     "ENV": f"The environment is: {db_environment} !!!",
-# }
-# print(result)
+# print(get_env_variables())
